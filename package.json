@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-ts-cli",
+  "name": "month-info-jp-calendar",
   "version": "1.0.0",
-  "description": "tsのcliツールの雛形",
+  "description": "return month info based on Japanese calendar",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
