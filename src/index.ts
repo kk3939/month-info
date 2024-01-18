@@ -1,3 +1,1 @@
-import { monthInfoJpCalendar } from "./month-info-jp-calendar";
-
-export { monthInfoJpCalendar };
+export { monthInfoJpCalendar } from "./month-info-jp-calendar";
