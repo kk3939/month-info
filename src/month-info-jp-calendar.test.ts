@@ -25,5 +25,8 @@ describe("dates", () => {
     console.log(monthInfo);
 
     expect(monthInfo.dates[0].date).toBe("2024-01-01T00:00:00.000+09:00");
+    expect(monthInfo.dates[0].is_jp_national_holiday).toBe(true);
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    expect(monthInfo.dates[0].holidayjp_national_holiday!.name).toBe("元日");
   });
 });

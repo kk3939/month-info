@@ -14,16 +14,14 @@ console.log(monthInfoJpCalendar);
 //   numDays: 31,
 //   dates: [
 //     {
-//       date: 2020-01-01T00:00:00.000Z,
+//       date: '2024-01-01T00:00:00.000+09:00',
 //       is_jp_national_holiday: true,
 //       holidayjp_national_holiday: {
 //         name: '元日',
-//         name_en: 'New Year\'s Day',
-//         date: '2020-01-01'
 //       }
 //     },
 //     {
-//       date: 2020-01-02T00:00:00.000Z,
+//       date: '2024-01-02T00:00:00.000+09:00',
 //       is_jp_national_holiday: false,
 //       holidayjp_national_holiday: null
 //     },
