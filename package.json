@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint './src/**/*.{tsx,jsx,ts,js}'",
     "exec": "ts-node src/main.ts",
     "build": "tsc --build",
     "test": "jest",
