@@ -1,13 +1,10 @@
-export const monthInfoJpCalendar = () => {
-  // const monthInfo = monthInfoCalendar();
-  // const monthInfoJp = monthInfo.map((info) => {
-  //   const month = info.month;
-  //   const monthJp = monthJpCalendar(month);
-  //   return {
-  //     month: month,
-  //     monthJp: monthJp,
-  //     days: info.days,
-  //   };
-  // });
-  // return monthInfoJp;
+import { DateTime } from "luxon";
+
+// Return the number of days in a month
+export const monthInfoJpCalendar = (year: number, month: number) => {
+  const dt = DateTime.local(year, month);
+  const numDays = dt.daysInMonth;
+  return {
+    numDays,
+  };
 };

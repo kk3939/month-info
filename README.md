@@ -3,15 +3,15 @@
 ## how to use
 
 ```ts
-import { MonthInfoJpCalendar } from 'month-info-jp-calendar';
+import { monthInfoJpCalendar } from 'month-info-jp-calendar';
 
-monthInfoJpCalendar = MonthInfoJpCalendar(2020, 1);
+const monthInfoJpCalendar = monthInfoJpCalendar(2020, 1);
 
 console.log(monthInfoJpCalendar);
 
 // この月の日数と各日をdateオブジェクト、それぞれの日が日本の祝日であればその情報を返す
 // {
-//   days: 31,
+//   numDays: 31,
 //   dates: [
 //     {
 //       date: 2020-01-01T00:00:00.000Z,
