@@ -9,6 +9,7 @@
     "exec": "ts-node src/main.ts",
     "build": "tsc --build",
     "test": "jest",
+    "test:debug": "jest --silent=false --verbose false",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
