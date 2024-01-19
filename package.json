@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "return month info based on Japanese calendar",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
+  "homepage": "https://github.com/kk3939/month-info-jp-calendar?tab=readme-ov-file#month-info-jp-calendar",
+  "bugs": "https://github.com/kk3939/month-info-jp-calendar/issues",
+  "author": "kyo9bo <kyo51310@gmail.com> (https://github.com/kk3939)",
   "scripts": {
     "lint": "eslint './src/**/*.{tsx,jsx,ts,js}'",
     "exec": "ts-node src/main.ts",
