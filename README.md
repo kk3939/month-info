@@ -1,5 +1,7 @@
 ## month-info-jp-calendar
 
+This is a library that provides month information about the calendar of Japan.
+
 ## how to use
 
 ```ts
@@ -9,7 +11,6 @@ const monthInfoJpCalendar = monthInfoJpCalendar(2020, 1);
 
 console.log(monthInfoJpCalendar);
 
-// この月の日数と各日をdateオブジェクト、それぞれの日が日本の祝日であればその情報を返す
 // {
 //   numDays: 31,
 //   dates: [
