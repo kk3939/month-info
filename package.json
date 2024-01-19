@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "return month info based on Japanese calendar",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/kk3939/month-info-jp-calendar?tab=readme-ov-file#month-info-jp-calendar",
   "bugs": "https://github.com/kk3939/month-info-jp-calendar/issues",
